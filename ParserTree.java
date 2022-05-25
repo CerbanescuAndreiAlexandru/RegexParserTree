@@ -11,7 +11,7 @@ public class ParserTree
         Vector<DefaultMutableTreeNode> nodes = new Vector<DefaultMutableTreeNode>();
         nodes.add(root);
         Vector<Parser.StateElement> tree = expr.getTree();
-        int k = 0;
+        int k = -1;
         String txt = "";
 
         int d = -1;

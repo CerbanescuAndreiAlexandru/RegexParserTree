@@ -35,14 +35,14 @@ public class MainMenu extends JFrame {
 
         JButton MatchingButton = new JButton("Matching");
         MatchingButton.setFont(new Font("Tahoma", Font.BOLD, 14));
-        MatchingButton.setBackground(Color.YELLOW);
+        MatchingButton.setBackground(new Color(67, 115, 163));
         MatchingButton.setBounds(160, 336, 120, 55);
         contentPane.add(MatchingButton);
 
         JButton parseButton = new JButton("Parsare");
         parseButton.setForeground(Color.BLACK);
         parseButton.setFont(new Font("Tahoma", Font.BOLD, 14));
-        parseButton.setBackground(Color.YELLOW);
+        parseButton.setBackground(new Color(67, 115, 163));
         parseButton.setBounds(491, 336, 120, 55);
         contentPane.add(parseButton);
 

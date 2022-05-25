@@ -29,7 +29,7 @@ public class MatcherMenu extends JFrame {
 
         JButton matchButton = new JButton("Matching");
         matchButton.setFont(new Font("Tahoma", Font.BOLD, 20));
-        matchButton.setBackground(new Color(255, 255, 0));
+        matchButton.setBackground(new Color(67, 115, 163));
         matchButton.setBounds(24, 360, 154, 85);
         contentPane.add(matchButton);
 
