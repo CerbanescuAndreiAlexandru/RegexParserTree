@@ -4,7 +4,7 @@ public class Main {
 	{
 
 		// TODO  !! LOCATIE BAZA DE DATE AICI !!
-		DB db = new DB("B:\\JavaProjects\\Proiect Syonic\\RegexDB.db");
+		DB db = new DB("");
 
 				try {
 					MainMenu frame = new MainMenu(db);
